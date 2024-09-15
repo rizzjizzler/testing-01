@@ -1,0 +1,3089 @@
+([[This file was protected with MoonSec V3]]):gsub(".+", function(a)
+	_cqilLhBruihC = a
+end)
+return (function(f, ...)
+	local c
+	local t
+	local d
+	local h
+	local a
+	local o
+	local e = 24915
+	local n = 0
+	local l = {}
+	while n < 275 do
+		n = n + 1
+		while n < 0xbe and e % 0x4116 < 0x208b do
+			n = n + 1
+			e = (e - 886) % 25871
+			local r = n + e
+			if (e % 0x1354) > 0x9aa then
+				e = (e * 0x3be) % 0x3aae
+				while n < 0x1b4 and e % 0x2ae8 < 0x1574 do
+					n = n + 1
+					e = (e - 505) % 29079
+					local a = n + e
+					if (e % 0x1516) > 0xa8b then
+						e = (e - 0x28a) % 0x1b0e
+						local e = 611
+						if not l[e] then
+							l[e] = 0x1
+							o = function(o)
+								local e = 0x01
+								local function l(n)
+									e = e + n
+									return o:sub(e - n, e - 0x01)
+								end
+								while true do
+									local n = l(0x01)
+									if n == "\5" then
+										break
+									end
+									local e = h.byte(l(0x01))
+									local e = l(e)
+									if n == "\2" then
+										e = t.DwVxEHfT(e)
+									elseif n == "\3" then
+										e = e ~= "\0"
+									elseif n == "\6" then
+										d[e] = function(n, e)
+											return f(8, nil, f, e, n)
+										end
+									elseif n == "\4" then
+										e = d[e]
+									elseif n == "\0" then
+										e = d[e][l(h.byte(l(0x01)))]
+									end
+									local n = l(0x08)
+									t[n] = e
+								end
+							end
+						end
+					elseif e % 2 ~= 0 then
+						e = (e * 0x1c2) % 0xba42
+						local e = 26600
+						if not l[e] then
+							l[e] = 0x1
+							h = string
+						end
+					else
+						e = (e * 0x3d2) % 0x69e0
+						n = n + 1
+						local e = 70052
+						if not l[e] then
+							l[e] = 0x1
+						end
+					end
+				end
+			elseif e % 2 ~= 0 then
+				e = (e * 0x1f6) % 0xa19e
+				while n < 0x2a1 and e % 0x1642 < 0xb21 do
+					n = n + 1
+					e = (e + 106) % 18392
+					local t = n + e
+					if (e % 0x1954) > 0xcaa then
+						e = (e * 0xdd) % 0x990f
+						local e = 79500
+						if not l[e] then
+							l[e] = 0x1
+							d = (not d) and _ENV or d
+						end
+					elseif e % 2 ~= 0 then
+						e = (e + 0x279) % 0x50cb
+						local e = 35031
+						if not l[e] then
+							l[e] = 0x1
+						end
+					else
+						e = (e * 0x195) % 0x36d9
+						n = n + 1
+						local e = 75697
+						if not l[e] then
+							l[e] = 0x1
+							c = tonumber
+						end
+					end
+				end
+			else
+				e = (e - 0x2cc) % 0x7f10
+				n = n + 1
+				while n < 0x385 and e % 0x4cc8 < 0x2664 do
+					n = n + 1
+					e = (e * 364) % 30487
+					local o = n + e
+					if (e % 0x36ec) <= 0x1b76 then
+						e = (e + 0xdf) % 0x16f9
+						local e = 55922
+						if not l[e] then
+							l[e] = 0x1
+							d = getfenv and getfenv()
+						end
+					elseif e % 2 ~= 0 then
+						e = (e - 0x152) % 0x67e4
+						local e = 16971
+						if not l[e] then
+							l[e] = 0x1
+							t = {}
+						end
+					else
+						e = (e * 0x91) % 0x8e9f
+						n = n + 1
+						local e = 33001
+						if not l[e] then
+							l[e] = 0x1
+							a =
+								"\4\8\116\111\110\117\109\98\101\114\68\119\86\120\69\72\102\84\0\6\115\116\114\105\110\103\4\99\104\97\114\105\66\121\69\102\103\115\83\0\6\115\116\114\105\110\103\3\115\117\98\117\76\97\116\67\119\88\101\0\6\115\116\114\105\110\103\4\98\121\116\101\79\98\107\87\86\76\95\80\0\5\116\97\98\108\101\6\99\111\110\99\97\116\98\112\72\108\108\70\117\83\0\5\116\97\98\108\101\6\105\110\115\101\114\116\68\115\77\79\99\107\110\110\5"
+						end
+					end
+				end
+			end
+		end
+		e = (e - 883) % 39033
+	end
+	o(a)
+	local e = {}
+	for n = 0x0, 0xff do
+		local l = t.iByEfgsS(n)
+		e[n] = l
+		e[l] = n
+	end
+	local function r(n)
+		return e[n]
+	end
+	local h = function(h, f)
+		local a, l = 0x01, 0x10
+		local n = { {}, {}, {} }
+		local d = -0x01
+		local e = 0x01
+		local o = h
+		while true do
+			n[0x03][t.uLatCwXe(
+				f,
+				e,
+				(function()
+					e = a + e
+					return e - 0x01
+				end)()
+			)] = (
+				function()
+					d = d + 0x01
+					return d
+				end
+			)()
+			if d == 0x0f then
+				d = ""
+				l = 0x000
+				break
+			end
+		end
+		local d = #f
+		while e < d + 0x01 do
+			n[0x02][l] = t.uLatCwXe(
+				f,
+				e,
+				(function()
+					e = a + e
+					return e - 0x01
+				end)()
+			)
+			l = l + 0x01
+			if l % 0x02 == 0x00 then
+				l = 0x00
+				t.DsMOcknn(
+					n[0x01],
+					(r((((n[0x03][n[0x02][0x00]] or 0x00) * 0x10) + (n[0x03][n[0x02][0x01]] or 0x00) + o) % 0x100))
+				)
+				o = h + o
+			end
+		end
+		return t.bpHllFuS(n[0x01])
+	end
+	o(
+		h(
+			124,
+			"EZ(!?M5aTPoGc-x7T5 cc(??c-?x0?5PFPaPW(Pa(5a-Gx?Z7?Pa!?P!ZMc?ZxG5?55ox-oZMc--?Z7a?57Zacx?Z5PG?--5M-7ZaP(5o!!3T-8-Gxco?7rTTo<oo-MTG:M5cZ5ZcZa(ax>MGT!xc!?PcPM--7aTZ-P!IZa!(a!ocHaZ7-aT.jo7?TPo(ZoaMPGxMxa(7aGZ!ZG(?oxPT{xP5-_x557T(5oG5?xM5-(6o(ZkG!!oP7!5cT-o5ZZ(PcZ-Pc(T-c?-xx5M-!M-xMaGP5Zcc-Ma-TMc7 aP7-PGZZPT!!T7cxM!{5PZ4ccc(7-a(7GTM57Za(T(NaGo??cZTU7cPZZ?P!7oaZ7(!5G-5x7(aPH^TM?acMM(oMM(cx?YG-7(aT(PGM!TGc?c7!5F=5To<oTcZG(oo75Px-5c(oG!ZoP?ZMGM(xox-x5!ZcPx((Ga!PGG5a7oaMxGMaP(ZPcPM(-TMT--PTu!Po -TT(-Gx9P?x-!TTZZTc!7Gc?x-T5Mxx5TcG{(Ta!-cM?ZxT5-kPT57!5P4(TPG5!-7#aP7?aG7-oP(Mc!M!o!!ccG!Ga(7aox(cG+aax(M(-?5N<7537P(5oGM7x^5?Yoa-K-PP!7T7!?PG-oM7Z(PcZcc-MxGo!-7?MZcc5xTxZMcT?x-?M5-PTcZMPZ/-Tx(7Tc(T?oc-T((ZPc!?-P(-->?-cZ75aP(7-oMG-x5?*aaG7xTTo((M-ca7(oaTVcT((-oxZM?x-ZTP?(P-!(o7MxGZ?mx?7oa-!57xac7T5gzP5-^7a?o5(G-x5Mxooc(7oGZPG-!MPMZcMo-xP(Z?cP?(G?!5765Mx-a(To,xc!?57ZP_7(TamGTGh(aPGo!x7(aM(-cM?(oc(PG?!Pcaxo5x(!oM!x-(5-xMaa77M-xPZooIM(-?Mcx!PMZPTZ1coM!McNJxM(-TTPUcP(ZaG(MGxo?sc!5c7aaMTo xcM?5xaa?7(TG7oPaZ7o(Go!x7Zao!+P<!7c?(!cG(!-5xo5x(To-5Mx(aZ--5Zx-57bZZoPxM!-?5cx-a-NPaP(5Pa(c?ocxTTVPcG(!oa?-co?x--5xao7xG(!Pxoa5u!5;6G55v?TPoo(xxa5M(GoZsoG?ZMGx?PcG-oMxZ?PM?cx??(G-MZxGaax!.oTx?ac-5GwHaZ7GP5(rT!Z7!oGxa(7-oZ!cGM!GcM?-c?Mo5oxxoP(?c!aMcaMM7-5G7Pa!PoZ--a5o(No?Zco((PTa(c?5coTC#)PP(7G(MPGa(7-oMaa57oGr!(7IMPK5MP7xa-x!aooP"
+		)
+	)
+	o(
+		h(
+			122,
+			"!h,BaZD<Uk;MswF>UDh,*ZUshqUwhUk<M;;2B<MZBF;h,swDZhwZZwFFDUUU(>+v<k>wUFhaD>,B;B,ZkNhDM<B>Z>Fkw;D,w>D;>D<D>;UkFkDMF;UB>MBUsaM<BFs,B>s;akDwZMwZDFFBDFw,UhwMDDh<kM,;;;MsaDBZ;>aUs,FZw,Z w<<xFFaZ>;Uh>sDBh;kk,DBUsDMB,MsOB>MwZ,sZZFwhZUFUD<>;ZB>;U<h,D;hv;MMsaZh;;>BBs;aMwahMMDZwwsawF><>wBU>;,,U,hkhh>MEBa;kB;shBswBZksF>a<kB<>MD%>BD;F_<,YhD>MUa,BaMZB>sDa;s<Z,whBsFh<h>h<<FUUhF;,q;M;0hBk;,;;kwysZaassaBsMZkFBDdF,D;s>Dh>wka;UBj,Z;a,s;B,MMk,Us;a,MkZhFZDZw,zUU>U_1UUZhCks,,k<,DM),>;whaMFFaDsZFw>Dk>8<a>h<s>MZsFwDk>wkM,MU>hUZ%wZsDaFsMZDF,ZUFkDF>h<hxMDaFw,UM/;BhM;U,<;Ma,MBB^M>ZMwZaU>ha;UadF>w<<h(U;;wka,Q;k,>MUBBMk,UwhaBwkBMwl0h"
+		)
+	)
+	YsQpZpyjikspoQq = function(e)
+		e((-t.hIeQVgrE + (function()
+			local l, n = t.OhCAlBVb, t.heEwBipT;
+			(function(e)
+				e(e(e and e))
+			end)(function(e)
+				if l > t.IMvoxQMz then
+					return e
+				end
+				l = l + t.heEwBipT
+				n = (n + t.QxLnUqMz) % t.ECXykUCs
+				if (n % t._tBEGuVr) > t.FatYYvJX then
+					n = (n * t.hfPorSft) % t.hUreOUYk
+					return e(e(e))
+				else
+					return e
+				end
+				return e
+			end)
+			return n
+		end)()))
+	end
+	qQopskijypZpQsY = { t.LkuooZmP, t.tclpiaBf }
+	local e = (
+		-t.DIIcUXoG
+		+ (function()
+			local l, n = t.OhCAlBVb, t.heEwBipT;
+			(function(e, n)
+				e(e(n, n and e), n(e, e) and e(e, e))
+			end)(function(e, d)
+				if l > t.lKoCHbyv then
+					return d
+				end
+				l = l + t.heEwBipT
+				n = (n + t.ldutoREB) % t.wqzIrjXQ
+				if (n % t.DgPrrnlw) <= t.nsVLIeZV then
+					n = (n * t.GECkzqcK) % t.lSfULmzA
+					return e
+				else
+					return e(e(e, d), e(e, d))
+				end
+				return e(e(e, d), e(e, d and e))
+			end, function(d, e)
+				if l > t._XfluzpO then
+					return e
+				end
+				l = l + t.heEwBipT
+				n = (n + t.TUmfOAVY) % t.YQkwCXcO
+				if (n % t.sZFDLwDY) <= t.RAMUwCdG then
+					n = (n + t.anFExQHf) % t.diaYVsLd
+					return d(e(e, d), d(e, d))
+				else
+					return d
+				end
+				return e
+			end)
+			return n
+		end)()
+	)
+	local te = getfenv or function()
+		return _ENV
+	end
+	local s = t.TpbSesmT or t.ofbdCOev
+	local d = t.MDXyIhaQ
+	local _ = t.heEwBipT
+	local o = t.ZWVXwgfl
+	local a = t.SzDTFmjM
+	local function de(g, ...)
+		local b = h(
+			e,
+			"Qql4?jA bGgv^U7z U^74jG^,? gUq4bGz%?bGUTjjvUl bA7vj4^Gl  bzj4U^Aq4  7^??gvqlUlj4Gbq7Az7^j^v?qgb4zljAv^cjb^b494j:v q7b47?AUU?4gbAzzA?^ llgg2zAUUG4Gg^7b 3Ul4Ggqqq?v7j?^vqz^A ^G4aG  l^Al7Gzzz/qAb^z4AGUT?AvUl4GgqiUA7Uj4^gqljb77^jb^j,7 ^Uv?lgGE7AgzUA?^ Pjbgt-?Gv4qA U7?gUlvbU7j7bjlvjq^b4j7^glbb?b zAj?vvllb -z qU^??gG_  4U4lGG4zAjU^?b7zgjgUl^b ^Gjz^A4^b??v q7bq7vqG jU^bAU^jG  q b%zl?U^qqjbzz??U^qqGb^zljzv l G?vjjq^?lGjl7vAvvG4qb { jj^Ul?bgzljbbU4bbU0 l U?z G^z AAUlzgGAzgA b^qqAG^q?jGv?jjU7l4gGlqAA^_7AgU7lUvvzgAq^blUGjq_ b7GzUggq? 7U7(Dv78zbbG^j4v^l:b^7??G^qqG zglA=vGlvbAgj4G^llGbzUvj?vGUU gv7?bvqqj ^74vUlA gbizq?Uv?qvbWCBAg^4lUg4Jv s^74gGgz>A?vUl?bvziA4^7?4glM^j4UAq g7qb 4UGqvG?zvAl^G4/G z7jjyv44GgaqAb^z4AGUh?gvU447gnD A7U4?7gzllbqUG?jgAyU ??7vAqv G7j?j?jg^q4 g7q?bbzbjvU7jjlvlqGb0?UvUl bq7??UvGz^qzbA7UAAUGllbGz{jGv7ljb^zG A^qlbbzljjU^jlvGlzGA?^zl7Gjz^Gl^g4lGbzzbz^U4?GvNlAGUK4 G7lUA^U?4ggqtbAzUA4Ugg;v lUG?Rg Bz jz^jzggqq bUz?Av7q?bUql?Gvqq b47j?^v4l^G+7bjqvAqzb?7vjlvzlgb zqjjv^l4bvzqjGvzlAUvz?jv^llgG_z j7^jAgG4z^Aq^glzG zU A^^4lGv,3 S^74jG^qj GUq4vGzqgAUU?4v^lF^ KUg47gb{^bqUgj4g^3z gUU?bgvql Gpwj?g7qG ^7 ?g^ qbGq77?UvGqvGA7Gjmv 47gq7^jbvglAbbzgjA^zlgbvzbjGU?l b7zj ^^zlgG zbAj^A4jG?zvA4^G4 G z7Aj^^44g^qjAbU 4Agl)?AvUl?vvHT   Ujjqg49g q7gj^gAq  ?7^?lgGqD v7 ?jv?q4Gg7q?GgzqAv 7?j vlq7b,7 ?7vj4Gb4z jq^4qzbA7Uj?vzllGjztjGv7l b^z4A6^qlzbzJqjUURlvGlzUAX^7l7gqz^A7^g4j^?zzA7^U?7GvC4AGUe?zG7BUA^Uv4ggq/b j7N4Ug^Ev 4UG?qg q? jU^Gqggqq b7q?AgUq? v4Y?GvBq bl7j?^v4qg^z7b?zvAljb?7vjlvGA7b 77jjvzl4bgzqjboUlAbUz?Al^llGG:z g^^jl^G4zvAq^blzGAl7A?U?4lgq,>A ^74jvb_4 ?Uq4bGzxAAUU??Uglql *UG47g X^ 474?qgbez zUU??gvql g7k? g7q  ^74?gvql? z7A?Uv?qvbl7Gj?Uqq7bj7^GAvgllbbdqGbvUl?bvz4jG^hl g72qj^^4lgGqzb p^A4zg7zvAl^G4gG z7AjU7?AGguqAbUn4AGUI?bvU^4GgIF A7Uj?7g4q^bjUb4zgAq4 ?Uv?lgGlb  U7?jgUq4 g7qjgvzqA U7??7vlqGb.zGGivjq^b4zgjqvbqzg^lbj?vvll^?z_jbv74lb^z Al^qlbbz4qjU^jlvGAxqAe^ l7Uqz^A?^g4q7^zzAA^U4jGvslAG7l GG76jA^7l4ggqabbq>q4Ugj<vbjUG?/g l7 bU^??ggql b7A?Avzl7 v7j?Gv^q  77j?^^7qgbl7bjlvAqUb?7vA-vGlOb 77jjv7l4bgZvjbvzlAb7z?j^^llG7?z j7^jlUG4zgAq^glzGAzUA?^v4lGGDlA ^74jG^j#AgUq4bGzWAAUU?4vzA_G XU 4zgjZ^ 4Ug?qgb&z  7???gvql g7j? g7qjz_??g^qU Ubx7^?Uv?qvzjjU^ll1b^7^7^j4vglqbb7zjAvUA?bvzljG^=l b7zj?^kllgGqzbjz^AlUG?Avgl^g4qG z7Aj^g4?GgrqAb^zAgGUS?AvUl ggW<bA7Uj4^g4dg qql4zgbaU ?Uv?lgGqoG^U7?Ag^qj g74?bUj4b U7j?vvbqGbq7 ?zvjl-bv7gjqvbljbA77j?vzlgbGzLj ^vljbUz4jgYllbGWzAj7^?lvGlzGGg^ 4VGjz^A4^g4qG7_GAAUX4?Gv%lAgU14GG7.jvgU44ggqNbAzUA4Ug?j^ lUG?cgGE7 jU^?4vGqq GUz?GgUqj v7Ajqv)q  7q ?^v?qgbqlG?zv qUb?7vjlvGlB^q77j v^l4bgzqjbvz?vbUzjjv^?lGGlz b?Ial^G?zgG4^b4(GAzzA?^z4gGGJ-A *)4jGUp4Agz74bg*)AAUU?4vglq GqU ?lgj47 4Uv?qgGKz g7j??gvqlgv7{?bg7qjvU74?vvqqv z7A?Uv??gbl7vjrv q7bj7^AjUqlqbv7zjgvUl?bvP?AG^<lvb7zGj^^4lgGq:Ujz^ lUGbzvA?^GjAgzz7AA^^jVGgIlAbUj4AgqX^AvUl4GvUC AzUj?8gvwg qUb qgAK7 ?7UbqgGqq  7j?jg^q4b^l%?bvqqAb07??vvlqGgU7 jqvjq^b47gjq^gj7bAzqj?vzllbGz;jvUbljb7z4bv^qlGbzzAG ^?4qGlzgA-^ l7Gj%7A4Uq4qG^zzAA^U4?gG%l qUB4vG7NjA^U4?UgqqqAzUG4Ug?Ev l77?TvqP7 jU^?4ggqqGlUzjqgUqG v7l?Gvwq^ 7zq?^vbqgbq7b?z^5qUbU7vj7vGllb 77j7v^lvbgzGjb^blAbU47jv^vlGGjz j7^jl^G7zgAG^b4 GAeAA?7v??GG&bA UA4jgqO4AgU?4bgAnA ?U??4gl2G zU 4zgjql 47q?qg^4v AUz??^Uql g7h? zjqj U74?^vqqb z7AG?v?qvbl7vjSv q7bj?Dj4vglqbG7zjAvUljbvzljG^el b7zjAl^4lgGqzb j^AlzG?zvAl^G4<G IlAj^z44GvhqAb^z4AG78?AzUl4gg:2 A7Uj?lg4{U qUg4zgb/U ?7g?lgvqy  U7?bg^q4 77q?bgzq  U7??vvlqGbF7 jcvAq^"
+		)
+		local n = t.OhCAlBVb
+		t.AoieJJeg(function()
+			t.ralmbssb()
+			n = n + t.heEwBipT
+		end)
+		local function e(l, e)
+			if e then
+				return n
+			end
+			n = l + n
+		end
+		local l, n, r = f(t.OhCAlBVb, f, e, b, t.ObkWVL_P)
+		local function h()
+			local n, l = t.ObkWVL_P(b, e(t.heEwBipT, t.ZWVXwgfl), e(t.jARKvEPp, t.ztlPuUsT) + t.MDXyIhaQ)
+			e(t.MDXyIhaQ)
+			return (l * t.tskUuiEH) + n
+		end
+		local u = true
+		local u = t.OhCAlBVb
+		local function k()
+			local d = n()
+			local e = n()
+			local o = t.heEwBipT
+			local d = (l(e, t.heEwBipT, t.aVDBximn) * (t.MDXyIhaQ ^ t.YtRcc_RE)) + d
+			local n = l(e, t.eyrXQXYc, t.FVmaosMU)
+			local e = ((-t.heEwBipT) ^ l(e, t.YtRcc_RE))
+			if n == t.OhCAlBVb then
+				if d == u then
+					return e * t.OhCAlBVb
+				else
+					n = t.heEwBipT
+					o = t.OhCAlBVb
+				end
+			elseif n == t.eeIPeqxB then
+				return (d == t.OhCAlBVb) and (e * (t.heEwBipT / t.OhCAlBVb)) or (e * (t.OhCAlBVb / t.OhCAlBVb))
+			end
+			return t.ApqfGxqx(e, n - t.JozLKpwq) * (o + (d / (t.MDXyIhaQ ^ t.OXRgRkon)))
+		end
+		local j = n
+		local function z(n)
+			local l
+			if not n then
+				n = j()
+				if n == t.OhCAlBVb then
+					return ""
+				end
+			end
+			l = t.uLatCwXe(b, e(t.heEwBipT, t.ZWVXwgfl), e(t.jARKvEPp, t.ztlPuUsT) + n - t.heEwBipT)
+			e(n)
+			local e = ""
+			for n = (t.heEwBipT + u), #l do
+				e = e .. t.uLatCwXe(l, n, n)
+			end
+			return e
+		end
+		local j = #t.LkuooZmP(c("\49.\48")) ~= t.heEwBipT
+		local e = n
+		local function de(...)
+			return { ... }, t._V_uiVyL("#", ...)
+		end
+		local function le()
+			local e = {}
+			local u = {}
+			local b = {}
+			local c = { u, b, nil, e }
+			local e = n()
+			local s = {}
+			for d = t.heEwBipT, e do
+				local l = r()
+				local n
+				if l == t.ZWVXwgfl then
+					n = (r() ~= #{})
+				elseif l == t.OhCAlBVb then
+					local e = k()
+					if j and t.FoCHsqzt(t.LkuooZmP(e), ".(\48+)$") then
+						e = t.ggPs_oKZ(e)
+					end
+					n = e
+				elseif l == t.heEwBipT then
+					n = z()
+				end
+				s[d] = n
+			end
+			for c = t.heEwBipT, n() do
+				local e = r()
+				if l(e, t.heEwBipT, t.heEwBipT) == t.OhCAlBVb then
+					local f = l(e, t.MDXyIhaQ, t.ZWVXwgfl)
+					local r = l(e, t.SzDTFmjM, t.ztlPuUsT)
+					local e = { h(), h(), nil, nil }
+					if f == t.OhCAlBVb then
+						e[o] = h()
+						e[a] = h()
+					elseif f == #{ t.heEwBipT } then
+						e[o] = n()
+					elseif f == g[t.MDXyIhaQ] then
+						e[o] = n() - (t.MDXyIhaQ ^ t.hDopKoCr)
+					elseif f == g[t.ZWVXwgfl] then
+						e[o] = n() - (t.MDXyIhaQ ^ t.hDopKoCr)
+						e[a] = h()
+					end
+					if l(r, t.heEwBipT, t.heEwBipT) == t.heEwBipT then
+						e[d] = s[e[d]]
+					end
+					if l(r, t.MDXyIhaQ, t.MDXyIhaQ) == t.heEwBipT then
+						e[o] = s[e[o]]
+					end
+					if l(r, t.ZWVXwgfl, t.ZWVXwgfl) == t.heEwBipT then
+						e[a] = s[e[a]]
+					end
+					u[c] = e
+				end
+			end
+			for e = t.heEwBipT, n() do
+				b[e - #{ t.heEwBipT }] = le()
+			end
+			c[t.ZWVXwgfl] = r()
+			return c
+		end
+		local function ne(l, n, e)
+			local d = n
+			local d = e
+			return c(t.FoCHsqzt(t.FoCHsqzt(({ t.AoieJJeg(l) })[t.MDXyIhaQ], n), e))
+		end
+		local function p(ee, u, c)
+			local function ne(...)
+				local h, y, j, ne, g, l, r, k, m, z, b, n
+				local e = t.OhCAlBVb
+				while -t.heEwBipT < e do
+					if t.MDXyIhaQ >= e then
+						if e < t.heEwBipT then
+							h = f(t.ztlPuUsT, t.mfqYYa_m, t.heEwBipT, t.DAMUAjWh, ee)
+							y = f(t.ztlPuUsT, t.sGGibbmz, t.MDXyIhaQ, t.bjsLsJde, ee)
+						else
+							if e ~= t.OhCAlBVb then
+								for n = t.bjsLsJde, t.seJpMryw do
+									if e ~= t.heEwBipT then
+										l = -t.dxRIYow_
+										r = -t.heEwBipT
+										break
+									end
+									j = f(t.ztlPuUsT, t.SdQWntSk, t.ZWVXwgfl, t.Ypegmqdv, ee)
+									g = de
+									ne = t.OhCAlBVb
+									break
+								end
+							else
+								l = -t.dxRIYow_
+								r = -t.heEwBipT
+							end
+						end
+					else
+						if e <= t.SzDTFmjM then
+							if t.heEwBipT ~= e then
+								for n = t.dxRIYow_, t.KyGQu_i_ do
+									if e < t.SzDTFmjM then
+										k = {}
+										m = { ... }
+										break
+									end
+									z = t._V_uiVyL("#", ...) - t.heEwBipT
+									b = {}
+									break
+								end
+							else
+								z = t._V_uiVyL("#", ...) - t.heEwBipT
+								b = {}
+							end
+						else
+							if e >= t.heEwBipT then
+								repeat
+									if e ~= t.jARKvEPp then
+										e = -t.MDXyIhaQ
+										break
+									end
+									n = f(t.FxxlnqKl)
+								until true
+							else
+								e = -t.MDXyIhaQ
+							end
+						end
+					end
+					e = e + t.heEwBipT
+				end
+				for e = t.OhCAlBVb, z do
+					if e >= j then
+						k[e - j] = m[e + t.heEwBipT]
+					else
+						n[e] = m[e + t.heEwBipT]
+					end
+				end
+				local m = z - j + t.heEwBipT
+				local e
+				local f
+				local function j(...)
+					while true do
+					end
+				end
+				while true do
+					if l < -t.EWVySGng then
+						l = l + t.lQzIjeGZ
+					end
+					e = h[l]
+					f = e[_]
+					if f > 42 then
+						if 64 >= f then
+							if 54 <= f then
+								if 58 < f then
+									if f < 62 then
+										if 60 > f then
+											if n[e[d]] == e[a] then
+												l = l + 1
+											else
+												l = e[o]
+											end
+										else
+											if 59 <= f then
+												for t = 10, 73 do
+													if f > 60 then
+														n[e[d]] = n[e[o]] % e[a]
+														break
+													end
+													if n[e[d]] ~= e[a] then
+														l = l + 1
+													else
+														l = e[o]
+													end
+													break
+												end
+											else
+												n[e[d]] = n[e[o]] % e[a]
+											end
+										end
+									else
+										if 63 <= f then
+											if 59 ~= f then
+												repeat
+													if f ~= 64 then
+														local t, a, f, h, r
+														local l = 0
+														while l > -1 do
+															if 3 <= l then
+																if 4 < l then
+																	if l > 1 then
+																		for e = 46, 73 do
+																			if 6 > l then
+																				n(r, h)
+																				break
+																			end
+																			l = -2
+																			break
+																		end
+																	else
+																		l = -2
+																	end
+																else
+																	if l > 2 then
+																		for e = 47, 81 do
+																			if l ~= 3 then
+																				r = t[a]
+																				break
+																			end
+																			h = t[f]
+																			break
+																		end
+																	else
+																		h = t[f]
+																	end
+																end
+															else
+																if 0 >= l then
+																	t = e
+																else
+																	if l == 1 then
+																		a = d
+																	else
+																		f = o
+																	end
+																end
+															end
+															l = l + 1
+														end
+														break
+													end
+													if n[e[d]] == e[a] then
+														l = l + 1
+													else
+														l = e[o]
+													end
+												until true
+											else
+												local t, a, h, f, r
+												local l = 0
+												while l > -1 do
+													if 3 <= l then
+														if 4 < l then
+															if l > 1 then
+																for e = 46, 73 do
+																	if 6 > l then
+																		n(r, f)
+																		break
+																	end
+																	l = -2
+																	break
+																end
+															else
+																l = -2
+															end
+														else
+															if l > 2 then
+																for e = 47, 81 do
+																	if l ~= 3 then
+																		r = t[a]
+																		break
+																	end
+																	f = t[h]
+																	break
+																end
+															else
+																f = t[h]
+															end
+														end
+													else
+														if 0 >= l then
+															t = e
+														else
+															if l == 1 then
+																a = d
+															else
+																h = o
+															end
+														end
+													end
+													l = l + 1
+												end
+											end
+										else
+											local f
+											for t = 0, 6 do
+												if t > 2 then
+													if t > 4 then
+														if 6 > t then
+															n[e[d]] = n[e[o]][e[a]]
+															l = l + 1
+															e = h[l]
+														else
+															n[e[d]] = c[e[o]]
+														end
+													else
+														if t ~= 3 then
+															n[e[d]] = c[e[o]]
+															l = l + 1
+															e = h[l]
+														else
+															n[e[d]] = n[e[o]][e[a]]
+															l = l + 1
+															e = h[l]
+														end
+													end
+												else
+													if 1 > t then
+														f = e[d]
+														n[f](n[f + 1])
+														l = l + 1
+														e = h[l]
+													else
+														if -2 < t then
+															repeat
+																if t ~= 2 then
+																	n[e[d]] = c[e[o]]
+																	l = l + 1
+																	e = h[l]
+																	break
+																end
+																n[e[d]] = c[e[o]]
+																l = l + 1
+																e = h[l]
+															until true
+														else
+															n[e[d]] = c[e[o]]
+															l = l + 1
+															e = h[l]
+														end
+													end
+												end
+											end
+										end
+									end
+								else
+									if f <= 55 then
+										if 53 <= f then
+											for l = 41, 90 do
+												if 54 < f then
+													for e = e[d], e[o] do
+														n[e] = nil
+													end
+													break
+												end
+												n[e[d]] = n[e[o]] + n[e[a]]
+												break
+											end
+										else
+											for e = e[d], e[o] do
+												n[e] = nil
+											end
+										end
+									else
+										if f >= 57 then
+											if f == 57 then
+												l = e[o]
+											else
+												local t, h, f, s, a, r
+												local l = 0
+												while l > -1 do
+													if 3 < l then
+														if l >= 6 then
+															if 4 < l then
+																for e = 34, 91 do
+																	if l < 7 then
+																		n[r] = a
+																		break
+																	end
+																	l = -2
+																	break
+																end
+															else
+																l = -2
+															end
+														else
+															if 4 < l then
+																r = t[h]
+															else
+																a = s[t[f]]
+															end
+														end
+													else
+														if 1 >= l then
+															if -2 <= l then
+																for n = 49, 67 do
+																	if l > 0 then
+																		h = d
+																		break
+																	end
+																	t = e
+																	break
+																end
+															else
+																t = e
+															end
+														else
+															if 2 == l then
+																f = o
+															else
+																s = n
+															end
+														end
+													end
+													l = l + 1
+												end
+											end
+										else
+											local d = e[d]
+											local t = n[d]
+											local f = n[d + 2]
+											if f > 0 then
+												if t > n[d + 1] then
+													l = e[o]
+												else
+													n[d + 3] = t
+												end
+											elseif t < n[d + 1] then
+												l = e[o]
+											else
+												n[d + 3] = t
+											end
+										end
+									end
+								end
+							else
+								if f > 47 then
+									if 51 > f then
+										if f >= 49 then
+											if f > 45 then
+												repeat
+													if 50 > f then
+														local f, u, a, c, r, s, t, g, p, k, z, _, j
+														t = 0
+														while t > -1 do
+															if t <= 3 then
+																if 2 <= t then
+																	if t ~= 2 then
+																		c = n
+																	else
+																		a = o
+																	end
+																else
+																	if t == 1 then
+																		u = d
+																	else
+																		f = e
+																	end
+																end
+															else
+																if 5 >= t then
+																	if 2 ~= t then
+																		repeat
+																			if t ~= 5 then
+																				r = c[f[a]]
+																				break
+																			end
+																			s = f[u]
+																		until true
+																	else
+																		s = f[u]
+																	end
+																else
+																	if 3 < t then
+																		repeat
+																			if t ~= 7 then
+																				n[s] = r
+																				break
+																			end
+																			t = -2
+																		until true
+																	else
+																		n[s] = r
+																	end
+																end
+															end
+															t = t + 1
+														end
+														l = l + 1
+														e = h[l]
+														t = 0
+														while t > -1 do
+															if 4 <= t then
+																if 6 > t then
+																	if t >= 1 then
+																		repeat
+																			if t ~= 4 then
+																				s = f[u]
+																				break
+																			end
+																			r = c[f[a]]
+																		until true
+																	else
+																		r = c[f[a]]
+																	end
+																else
+																	if t > 6 then
+																		t = -2
+																	else
+																		n[s] = r
+																	end
+																end
+															else
+																if t >= 2 then
+																	if 2 < t then
+																		c = n
+																	else
+																		a = o
+																	end
+																else
+																	if t < 1 then
+																		f = e
+																	else
+																		u = d
+																	end
+																end
+															end
+															t = t + 1
+														end
+														l = l + 1
+														e = h[l]
+														g = e[d]
+														n[g] = n[g](n[g + 1])
+														l = l + 1
+														e = h[l]
+														t = 0
+														while t > -1 do
+															if 4 > t then
+																if 1 >= t then
+																	if t ~= -4 then
+																		for n = 32, 70 do
+																			if t ~= 0 then
+																				u = d
+																				break
+																			end
+																			f = e
+																			break
+																		end
+																	else
+																		f = e
+																	end
+																else
+																	if -2 <= t then
+																		for e = 28, 64 do
+																			if t ~= 3 then
+																				a = o
+																				break
+																			end
+																			c = n
+																			break
+																		end
+																	else
+																		a = o
+																	end
+																end
+															else
+																if 5 < t then
+																	if 5 <= t then
+																		for e = 41, 53 do
+																			if t < 7 then
+																				n[s] = r
+																				break
+																			end
+																			t = -2
+																			break
+																		end
+																	else
+																		t = -2
+																	end
+																else
+																	if t ~= 0 then
+																		for e = 35, 86 do
+																			if t ~= 4 then
+																				s = f[u]
+																				break
+																			end
+																			r = c[f[a]]
+																			break
+																		end
+																	else
+																		r = c[f[a]]
+																	end
+																end
+															end
+															t = t + 1
+														end
+														l = l + 1
+														e = h[l]
+														do
+															return n[e[d]]
+														end
+														l = l + 1
+														e = h[l]
+														g = e[d]
+														p = {}
+														for e = 1, #b do
+															k = b[e]
+															for e = 0, #k do
+																z = k[e]
+																_ = z[1]
+																j = z[2]
+																if _ == n and j >= g then
+																	p[j] = _[j]
+																	z[1] = p
+																end
+															end
+														end
+														l = l + 1
+														e = h[l]
+														l = e[o]
+														break
+													end
+													local r, b, c, f, s, h, t
+													local l = 0
+													while l > -1 do
+														if l < 3 then
+															if 0 < l then
+																if l == 2 then
+																	s = f[b]
+																else
+																	f = e
+																end
+															else
+																r = d
+																b = o
+																c = a
+															end
+														else
+															if 5 > l then
+																if 2 ~= l then
+																	for e = 39, 57 do
+																		if l ~= 4 then
+																			h = f[r]
+																			break
+																		end
+																		t = n[s]
+																		for e = 1 + s, f[c] do
+																			t = t .. n[e]
+																		end
+																		break
+																	end
+																else
+																	h = f[r]
+																end
+															else
+																if l ~= 4 then
+																	for e = 23, 60 do
+																		if l > 5 then
+																			l = -2
+																			break
+																		end
+																		n[h] = t
+																		break
+																	end
+																else
+																	n[h] = t
+																end
+															end
+														end
+														l = l + 1
+													end
+												until true
+											else
+												local f, u, r, c, a, s, t, g, _, k, z, p, j
+												t = 0
+												while t > -1 do
+													if t <= 3 then
+														if 2 <= t then
+															if t ~= 2 then
+																c = n
+															else
+																r = o
+															end
+														else
+															if t == 1 then
+																u = d
+															else
+																f = e
+															end
+														end
+													else
+														if 5 >= t then
+															if 2 ~= t then
+																repeat
+																	if t ~= 5 then
+																		a = c[f[r]]
+																		break
+																	end
+																	s = f[u]
+																until true
+															else
+																s = f[u]
+															end
+														else
+															if 3 < t then
+																repeat
+																	if t ~= 7 then
+																		n[s] = a
+																		break
+																	end
+																	t = -2
+																until true
+															else
+																n[s] = a
+															end
+														end
+													end
+													t = t + 1
+												end
+												l = l + 1
+												e = h[l]
+												t = 0
+												while t > -1 do
+													if 4 <= t then
+														if 6 > t then
+															if t >= 1 then
+																repeat
+																	if t ~= 4 then
+																		s = f[u]
+																		break
+																	end
+																	a = c[f[r]]
+																until true
+															else
+																a = c[f[r]]
+															end
+														else
+															if t > 6 then
+																t = -2
+															else
+																n[s] = a
+															end
+														end
+													else
+														if t >= 2 then
+															if 2 < t then
+																c = n
+															else
+																r = o
+															end
+														else
+															if t < 1 then
+																f = e
+															else
+																u = d
+															end
+														end
+													end
+													t = t + 1
+												end
+												l = l + 1
+												e = h[l]
+												g = e[d]
+												n[g] = n[g](n[g + 1])
+												l = l + 1
+												e = h[l]
+												t = 0
+												while t > -1 do
+													if 4 > t then
+														if 1 >= t then
+															if t ~= -4 then
+																for n = 32, 70 do
+																	if t ~= 0 then
+																		u = d
+																		break
+																	end
+																	f = e
+																	break
+																end
+															else
+																f = e
+															end
+														else
+															if -2 <= t then
+																for e = 28, 64 do
+																	if t ~= 3 then
+																		r = o
+																		break
+																	end
+																	c = n
+																	break
+																end
+															else
+																r = o
+															end
+														end
+													else
+														if 5 < t then
+															if 5 <= t then
+																for e = 41, 53 do
+																	if t < 7 then
+																		n[s] = a
+																		break
+																	end
+																	t = -2
+																	break
+																end
+															else
+																t = -2
+															end
+														else
+															if t ~= 0 then
+																for e = 35, 86 do
+																	if t ~= 4 then
+																		s = f[u]
+																		break
+																	end
+																	a = c[f[r]]
+																	break
+																end
+															else
+																a = c[f[r]]
+															end
+														end
+													end
+													t = t + 1
+												end
+												l = l + 1
+												e = h[l]
+												do
+													return n[e[d]]
+												end
+												l = l + 1
+												e = h[l]
+												g = e[d]
+												_ = {}
+												for e = 1, #b do
+													k = b[e]
+													for e = 0, #k do
+														z = k[e]
+														p = z[1]
+														j = z[2]
+														if p == n and j >= g then
+															_[j] = p[j]
+															z[1] = _
+														end
+													end
+												end
+												l = l + 1
+												e = h[l]
+												l = e[o]
+											end
+										else
+											for t = 0, 1 do
+												if t > 0 then
+													n[e[d]] = c[e[o]]
+												else
+													n(e[d], e[o])
+													l = l + 1
+													e = h[l]
+												end
+											end
+										end
+									else
+										if 52 <= f then
+											if 52 ~= f then
+												n[e[d]] = n[e[o]] + n[e[a]]
+											else
+												local l = e[d]
+												n[l](s(n, l + 1, e[o]))
+											end
+										else
+											n[e[d]] = n[e[o]] % e[a]
+										end
+									end
+								else
+									if f < 45 then
+										if 40 ~= f then
+											for t = 48, 74 do
+												if 44 ~= f then
+													local f, _, b, z, j, p, u, t, y, m, k
+													for t = 0, 5 do
+														if 2 < t then
+															if 4 > t then
+																f = e[d]
+																y, m = g(n[f](s(n, f + 1, e[o])))
+																r = m + f - 1
+																k = 0
+																for e = f, r do
+																	k = k + 1
+																	n[e] = y[k]
+																end
+																l = l + 1
+																e = h[l]
+															else
+																if t > 1 then
+																	for o = 44, 79 do
+																		if 4 < t then
+																			n[e[d]]()
+																			break
+																		end
+																		f = e[d]
+																		n[f] = n[f](s(n, f + 1, r))
+																		l = l + 1
+																		e = h[l]
+																		break
+																	end
+																else
+																	f = e[d]
+																	n[f] = n[f](s(n, f + 1, r))
+																	l = l + 1
+																	e = h[l]
+																end
+															end
+														else
+															if 0 < t then
+																if t ~= 0 then
+																	for r = 36, 71 do
+																		if 2 ~= t then
+																			f = e[d]
+																			_ = n[e[o]]
+																			n[f + 1] = _
+																			n[f] = _[e[a]]
+																			l = l + 1
+																			e = h[l]
+																			break
+																		end
+																		t = 0
+																		while t > -1 do
+																			if t >= 3 then
+																				if 5 <= t then
+																					if t < 6 then
+																						n(u, p)
+																					else
+																						t = -2
+																					end
+																				else
+																					if 2 <= t then
+																						repeat
+																							if t ~= 3 then
+																								u = b[z]
+																								break
+																							end
+																							p = b[j]
+																						until true
+																					else
+																						u = b[z]
+																					end
+																				end
+																			else
+																				if t >= 1 then
+																					if t >= -3 then
+																						for e = 47, 85 do
+																							if t ~= 1 then
+																								j = o
+																								break
+																							end
+																							z = d
+																							break
+																						end
+																					else
+																						j = o
+																					end
+																				else
+																					b = e
+																				end
+																			end
+																			t = t + 1
+																		end
+																		l = l + 1
+																		e = h[l]
+																		break
+																	end
+																else
+																	t = 0
+																	while t > -1 do
+																		if t >= 3 then
+																			if 5 <= t then
+																				if t < 6 then
+																					n(u, p)
+																				else
+																					t = -2
+																				end
+																			else
+																				if 2 <= t then
+																					repeat
+																						if t ~= 3 then
+																							u = b[z]
+																							break
+																						end
+																						p = b[j]
+																					until true
+																				else
+																					u = b[z]
+																				end
+																			end
+																		else
+																			if t >= 1 then
+																				if t >= -3 then
+																					for e = 47, 85 do
+																						if t ~= 1 then
+																							j = o
+																							break
+																						end
+																						z = d
+																						break
+																					end
+																				else
+																					j = o
+																				end
+																			else
+																				b = e
+																			end
+																		end
+																		t = t + 1
+																	end
+																	l = l + 1
+																	e = h[l]
+																end
+															else
+																n[e[d]] = c[e[o]]
+																l = l + 1
+																e = h[l]
+															end
+														end
+													end
+													break
+												end
+												local d = e[d]
+												local f = n[d + 2]
+												local t = n[d] + f
+												n[d] = t
+												if f > 0 then
+													if t <= n[d + 1] then
+														l = e[o]
+														n[d + 3] = t
+													end
+												elseif t >= n[d + 1] then
+													l = e[o]
+													n[d + 3] = t
+												end
+												break
+											end
+										else
+											local f, _, b, z, u, p, j, t, m, y, k
+											for t = 0, 5 do
+												if 2 < t then
+													if 4 > t then
+														f = e[d]
+														m, y = g(n[f](s(n, f + 1, e[o])))
+														r = y + f - 1
+														k = 0
+														for e = f, r do
+															k = k + 1
+															n[e] = m[k]
+														end
+														l = l + 1
+														e = h[l]
+													else
+														if t > 1 then
+															for o = 44, 79 do
+																if 4 < t then
+																	n[e[d]]()
+																	break
+																end
+																f = e[d]
+																n[f] = n[f](s(n, f + 1, r))
+																l = l + 1
+																e = h[l]
+																break
+															end
+														else
+															f = e[d]
+															n[f] = n[f](s(n, f + 1, r))
+															l = l + 1
+															e = h[l]
+														end
+													end
+												else
+													if 0 < t then
+														if t ~= 0 then
+															for r = 36, 71 do
+																if 2 ~= t then
+																	f = e[d]
+																	_ = n[e[o]]
+																	n[f + 1] = _
+																	n[f] = _[e[a]]
+																	l = l + 1
+																	e = h[l]
+																	break
+																end
+																t = 0
+																while t > -1 do
+																	if t >= 3 then
+																		if 5 <= t then
+																			if t < 6 then
+																				n(j, p)
+																			else
+																				t = -2
+																			end
+																		else
+																			if 2 <= t then
+																				repeat
+																					if t ~= 3 then
+																						j = b[z]
+																						break
+																					end
+																					p = b[u]
+																				until true
+																			else
+																				j = b[z]
+																			end
+																		end
+																	else
+																		if t >= 1 then
+																			if t >= -3 then
+																				for e = 47, 85 do
+																					if t ~= 1 then
+																						u = o
+																						break
+																					end
+																					z = d
+																					break
+																				end
+																			else
+																				u = o
+																			end
+																		else
+																			b = e
+																		end
+																	end
+																	t = t + 1
+																end
+																l = l + 1
+																e = h[l]
+																break
+															end
+														else
+															t = 0
+															while t > -1 do
+																if t >= 3 then
+																	if 5 <= t then
+																		if t < 6 then
+																			n(j, p)
+																		else
+																			t = -2
+																		end
+																	else
+																		if 2 <= t then
+																			repeat
+																				if t ~= 3 then
+																					j = b[z]
+																					break
+																				end
+																				p = b[u]
+																			until true
+																		else
+																			j = b[z]
+																		end
+																	end
+																else
+																	if t >= 1 then
+																		if t >= -3 then
+																			for e = 47, 85 do
+																				if t ~= 1 then
+																					u = o
+																					break
+																				end
+																				z = d
+																				break
+																			end
+																		else
+																			u = o
+																		end
+																	else
+																		b = e
+																	end
+																end
+																t = t + 1
+															end
+															l = l + 1
+															e = h[l]
+														end
+													else
+														n[e[d]] = c[e[o]]
+														l = l + 1
+														e = h[l]
+													end
+												end
+											end
+										end
+									else
+										if f > 45 then
+											if 46 == f then
+												local e = e[d]
+												r = e + m - 1
+												for l = e, r do
+													local e = k[l - e]
+													n[l] = e
+												end
+											else
+												local t, p, k, j, z, t, t, f, c, u, g, r, b
+												for t = 0, 4 do
+													if t >= 2 then
+														if t < 3 then
+															t = 0
+															while t > -1 do
+																if 3 <= t then
+																	if t <= 4 then
+																		if 4 == t then
+																			r = f[c]
+																		else
+																			g = f[u]
+																		end
+																	else
+																		if t ~= 5 then
+																			t = -2
+																		else
+																			n(r, g)
+																		end
+																	end
+																else
+																	if t <= 0 then
+																		f = e
+																	else
+																		if -1 < t then
+																			repeat
+																				if t > 1 then
+																					u = o
+																					break
+																				end
+																				c = d
+																			until true
+																		else
+																			u = o
+																		end
+																	end
+																end
+																t = t + 1
+															end
+															l = l + 1
+															e = h[l]
+														else
+															if -1 ~= t then
+																repeat
+																	if t ~= 3 then
+																		if n[e[d]] ~= e[a] then
+																			l = l + 1
+																		else
+																			l = e[o]
+																		end
+																		break
+																	end
+																	b = e[d]
+																	n[b] = n[b](s(n, b + 1, e[o]))
+																	l = l + 1
+																	e = h[l]
+																until true
+															else
+																b = e[d]
+																n[b] = n[b](s(n, b + 1, e[o]))
+																l = l + 1
+																e = h[l]
+															end
+														end
+													else
+														if t > -4 then
+															for a = 23, 65 do
+																if t > 0 then
+																	t = 0
+																	while t > -1 do
+																		if t <= 2 then
+																			if t < 1 then
+																				f = e
+																			else
+																				if -2 <= t then
+																					repeat
+																						if 1 < t then
+																							u = o
+																							break
+																						end
+																						c = d
+																					until true
+																				else
+																					c = d
+																				end
+																			end
+																		else
+																			if t > 4 then
+																				if 6 == t then
+																					t = -2
+																				else
+																					n(r, g)
+																				end
+																			else
+																				if t > 0 then
+																					for e = 14, 52 do
+																						if 4 ~= t then
+																							g = f[u]
+																							break
+																						end
+																						r = f[c]
+																						break
+																					end
+																				else
+																					r = f[c]
+																				end
+																			end
+																		end
+																		t = t + 1
+																	end
+																	l = l + 1
+																	e = h[l]
+																	break
+																end
+																t = 0
+																while t > -1 do
+																	if t >= 4 then
+																		if 5 < t then
+																			if 2 <= t then
+																				repeat
+																					if t ~= 6 then
+																						t = -2
+																						break
+																					end
+																					n[r] = z
+																				until true
+																			else
+																				n[r] = z
+																			end
+																		else
+																			if t == 5 then
+																				r = f[p]
+																			else
+																				z = j[f[k]]
+																			end
+																		end
+																	else
+																		if t > 1 then
+																			if 1 <= t then
+																				for e = 37, 82 do
+																					if 2 ~= t then
+																						j = n
+																						break
+																					end
+																					k = o
+																					break
+																				end
+																			else
+																				j = n
+																			end
+																		else
+																			if t >= -3 then
+																				repeat
+																					if t ~= 1 then
+																						f = e
+																						break
+																					end
+																					p = d
+																				until true
+																			else
+																				f = e
+																			end
+																		end
+																	end
+																	t = t + 1
+																end
+																l = l + 1
+																e = h[l]
+																break
+															end
+														else
+															t = 0
+															while t > -1 do
+																if t <= 2 then
+																	if t < 1 then
+																		f = e
+																	else
+																		if -2 <= t then
+																			repeat
+																				if 1 < t then
+																					u = o
+																					break
+																				end
+																				c = d
+																			until true
+																		else
+																			c = d
+																		end
+																	end
+																else
+																	if t > 4 then
+																		if 6 == t then
+																			t = -2
+																		else
+																			n(r, g)
+																		end
+																	else
+																		if t > 0 then
+																			for e = 14, 52 do
+																				if 4 ~= t then
+																					g = f[u]
+																					break
+																				end
+																				r = f[c]
+																				break
+																			end
+																		else
+																			r = f[c]
+																		end
+																	end
+																end
+																t = t + 1
+															end
+															l = l + 1
+															e = h[l]
+														end
+													end
+												end
+											end
+										else
+											n[e[d]] = #n[e[o]]
+										end
+									end
+								end
+							end
+						else
+							if f <= 75 then
+								if 70 > f then
+									if 66 < f then
+										if f >= 68 then
+											if 66 < f then
+												repeat
+													if f ~= 69 then
+														local e = e[d]
+														local l = n[e]
+														for e = e + 1, r do
+															t.DsMOcknn(l, n[e])
+														end
+														break
+													end
+													do
+														return
+													end
+												until true
+											else
+												local e = e[d]
+												local l = n[e]
+												for e = e + 1, r do
+													t.DsMOcknn(l, n[e])
+												end
+											end
+										else
+											local e = e[d]
+											n[e](n[e + 1])
+										end
+									else
+										if 62 ~= f then
+											for l = 28, 82 do
+												if 65 ~= f then
+													n[e[d]] = c[e[o]]
+													break
+												end
+												n[e[d]] = u[e[o]]
+												break
+											end
+										else
+											n[e[d]] = c[e[o]]
+										end
+									end
+								else
+									if 72 < f then
+										if f < 74 then
+											n[e[d]] = c[e[o]]
+										else
+											if 75 == f then
+												n[e[d]] = (e[o] ~= 0)
+											else
+												local r, t
+												for f = 0, 4 do
+													if f <= 1 then
+														if f ~= -3 then
+															repeat
+																if f > 0 then
+																	n[e[d]] = n[e[o]] + n[e[a]]
+																	l = l + 1
+																	e = h[l]
+																	break
+																end
+																n[e[d]] = u[e[o]]
+																l = l + 1
+																e = h[l]
+															until true
+														else
+															n[e[d]] = u[e[o]]
+															l = l + 1
+															e = h[l]
+														end
+													else
+														if f < 3 then
+															n[e[d]] = n[e[o]] % e[a]
+															l = l + 1
+															e = h[l]
+														else
+															if 2 ~= f then
+																repeat
+																	if 4 > f then
+																		n[e[d]] = n[e[o]][n[e[a]]]
+																		l = l + 1
+																		e = h[l]
+																		break
+																	end
+																	r = e[o]
+																	t = n[r]
+																	for e = r + 1, e[a] do
+																		t = t .. n[e]
+																	end
+																	n[e[d]] = t
+																until true
+															else
+																r = e[o]
+																t = n[r]
+																for e = r + 1, e[a] do
+																	t = t .. n[e]
+																end
+																n[e[d]] = t
+															end
+														end
+													end
+												end
+											end
+										end
+									else
+										if f < 71 then
+											local l = e[d]
+											n[l] = n[l](s(n, l + 1, e[o]))
+										else
+											if 67 <= f then
+												for l = 13, 72 do
+													if f > 71 then
+														local l = e[d]
+														local d = n[e[o]]
+														n[l + 1] = d
+														n[l] = d[e[a]]
+														break
+													end
+													do
+														return n[e[d]]
+													end
+													break
+												end
+											else
+												local d = e[d]
+												local l = n[e[o]]
+												n[d + 1] = l
+												n[d] = l[e[a]]
+											end
+										end
+									end
+								end
+							else
+								if f > 80 then
+									if f > 83 then
+										if f < 85 then
+											do
+												return
+											end
+										else
+											if 83 ~= f then
+												repeat
+													if 86 ~= f then
+														local e = e[d]
+														n[e](n[e + 1])
+														break
+													end
+													if n[e[d]] then
+														l = l + 1
+													else
+														l = e[o]
+													end
+												until true
+											else
+												local e = e[d]
+												n[e](n[e + 1])
+											end
+										end
+									else
+										if f >= 82 then
+											if f ~= 79 then
+												for l = 23, 69 do
+													if 83 > f then
+														do
+															return n[e[d]]
+														end
+														break
+													end
+													u[e[o]] = n[e[d]]
+													break
+												end
+											else
+												u[e[o]] = n[e[d]]
+											end
+										else
+											n[e[d]] = u[e[o]]
+										end
+									end
+								else
+									if 78 <= f then
+										if f <= 78 then
+											local t, h, a, f, r, s
+											local l = 0
+											while l > -1 do
+												if 3 >= l then
+													if 1 >= l then
+														if -4 < l then
+															for n = 28, 53 do
+																if l > 0 then
+																	h = d
+																	break
+																end
+																t = e
+																break
+															end
+														else
+															h = d
+														end
+													else
+														if l > 1 then
+															for e = 35, 96 do
+																if 2 < l then
+																	f = n
+																	break
+																end
+																a = o
+																break
+															end
+														else
+															f = n
+														end
+													end
+												else
+													if l < 6 then
+														if 4 ~= l then
+															s = t[h]
+														else
+															r = f[t[a]]
+														end
+													else
+														if l >= 5 then
+															repeat
+																if l > 6 then
+																	l = -2
+																	break
+																end
+																n[s] = r
+															until true
+														else
+															l = -2
+														end
+													end
+												end
+												l = l + 1
+											end
+										else
+											if f ~= 78 then
+												for l = 49, 61 do
+													if f ~= 80 then
+														n[e[d]][n[e[o]]] = n[e[a]]
+														break
+													end
+													local e = e[d]
+													local l = n[e]
+													for e = e + 1, r do
+														t.DsMOcknn(l, n[e])
+													end
+													break
+												end
+											else
+												n[e[d]][n[e[o]]] = n[e[a]]
+											end
+										end
+									else
+										if 76 < f then
+											u[e[o]] = n[e[d]]
+										else
+											local o = e[d]
+											local t = {}
+											for e = 1, #b do
+												local e = b[e]
+												for l = 0, #e do
+													local l = e[l]
+													local d = l[1]
+													local e = l[2]
+													if d == n and e >= o then
+														t[e] = d[e]
+														l[1] = t
+													end
+												end
+											end
+										end
+									end
+								end
+							end
+						end
+					else
+						if f >= 21 then
+							if 31 >= f then
+								if f >= 26 then
+									if 28 < f then
+										if 29 >= f then
+											local f
+											for t = 0, 3 do
+												if 1 >= t then
+													if t > -3 then
+														for a = 46, 80 do
+															if 1 > t then
+																n[e[d]] = n[e[o]]
+																l = l + 1
+																e = h[l]
+																break
+															end
+															f = e[d]
+															n[f] = n[f](n[f + 1])
+															l = l + 1
+															e = h[l]
+															break
+														end
+													else
+														n[e[d]] = n[e[o]]
+														l = l + 1
+														e = h[l]
+													end
+												else
+													if -1 <= t then
+														repeat
+															if t ~= 2 then
+																n[e[d]][n[e[o]]] = n[e[a]]
+																break
+															end
+															n[e[d]][n[e[o]]] = n[e[a]]
+															l = l + 1
+															e = h[l]
+														until true
+													else
+														n[e[d]][n[e[o]]] = n[e[a]]
+														l = l + 1
+														e = h[l]
+													end
+												end
+											end
+										else
+											if f >= 27 then
+												repeat
+													if 30 ~= f then
+														local l = e[d]
+														local d, e = g(n[l](s(n, l + 1, e[o])))
+														r = e + l - 1
+														local e = 0
+														for l = l, r do
+															e = e + 1
+															n[l] = d[e]
+														end
+														break
+													end
+													for t = 0, 1 do
+														if 1 == t then
+															if n[e[d]] then
+																l = l + 1
+															else
+																l = e[o]
+															end
+														else
+															n[e[d]] = c[e[o]]
+															l = l + 1
+															e = h[l]
+														end
+													end
+												until true
+											else
+												local l = e[d]
+												local d, e = g(n[l](s(n, l + 1, e[o])))
+												r = e + l - 1
+												local e = 0
+												for l = l, r do
+													e = e + 1
+													n[l] = d[e]
+												end
+											end
+										end
+									else
+										if f <= 26 then
+											local d = e[d]
+											local t = n[d]
+											local f = n[d + 2]
+											if f > 0 then
+												if t > n[d + 1] then
+													l = e[o]
+												else
+													n[d + 3] = t
+												end
+											elseif t < n[d + 1] then
+												l = e[o]
+											else
+												n[d + 3] = t
+											end
+										else
+											if 28 ~= f then
+												local e = e[d]
+												n[e] = n[e](s(n, e + 1, r))
+											else
+												n[e[d]] = n[e[o]][e[a]]
+											end
+										end
+									end
+								else
+									if 22 < f then
+										if 23 >= f then
+											local e = e[d]
+											n[e] = n[e](s(n, e + 1, r))
+										else
+											if f > 23 then
+												for l = 28, 72 do
+													if 24 < f then
+														n[e[d]] = n[e[o]][e[a]]
+														break
+													end
+													for e = e[d], e[o] do
+														n[e] = nil
+													end
+													break
+												end
+											else
+												for e = e[d], e[o] do
+													n[e] = nil
+												end
+											end
+										end
+									else
+										if 19 <= f then
+											for t = 38, 89 do
+												if 21 < f then
+													local t
+													n[e[d]] = u[e[o]]
+													l = l + 1
+													e = h[l]
+													n[e[d]] = u[e[o]]
+													l = l + 1
+													e = h[l]
+													n[e[d]] = n[e[o]]
+													l = l + 1
+													e = h[l]
+													t = e[d]
+													n[t] = n[t](n[t + 1])
+													l = l + 1
+													e = h[l]
+													n[e[d]][n[e[o]]] = n[e[a]]
+													l = l + 1
+													e = h[l]
+													do
+														return
+													end
+													break
+												end
+												n[e[d]] = (e[o] ~= 0)
+												break
+											end
+										else
+											n[e[d]] = (e[o] ~= 0)
+										end
+									end
+								end
+							else
+								if f < 37 then
+									if f <= 33 then
+										if f ~= 31 then
+											for t = 25, 90 do
+												if f ~= 33 then
+													local e = e[d]
+													n[e] = n[e](n[e + 1])
+													break
+												end
+												if e[d] < n[e[a]] then
+													l = l + 1
+												else
+													l = e[o]
+												end
+												break
+											end
+										else
+											if e[d] < n[e[a]] then
+												l = l + 1
+											else
+												l = e[o]
+											end
+										end
+									else
+										if f > 34 then
+											if f ~= 31 then
+												repeat
+													if f < 36 then
+														c[e[o]] = n[e[d]]
+														break
+													end
+													local d = e[d]
+													local f = n[d + 2]
+													local t = n[d] + f
+													n[d] = t
+													if f > 0 then
+														if t <= n[d + 1] then
+															l = e[o]
+															n[d + 3] = t
+														end
+													elseif t >= n[d + 1] then
+														l = e[o]
+														n[d + 3] = t
+													end
+												until true
+											else
+												c[e[o]] = n[e[d]]
+											end
+										else
+											if n[e[d]] ~= e[a] then
+												l = l + 1
+											else
+												l = e[o]
+											end
+										end
+									end
+								else
+									if 39 >= f then
+										if f >= 38 then
+											if 35 <= f then
+												for l = 22, 94 do
+													if f ~= 39 then
+														n[e[d]]()
+														break
+													end
+													local l = e[d]
+													n[l] = n[l](s(n, l + 1, e[o]))
+													break
+												end
+											else
+												local l = e[d]
+												n[l] = n[l](s(n, l + 1, e[o]))
+											end
+										else
+											local e = e[d]
+											n[e] = n[e](n[e + 1])
+										end
+									else
+										if 41 <= f then
+											if 42 > f then
+												n[e[d]] = {}
+											else
+												n[e[d]] = #n[e[o]]
+											end
+										else
+											local o, a, f
+											for s = 0, 1 do
+												if s == 0 then
+													o = e[d]
+													r = o + m - 1
+													for e = o, r do
+														a = k[e - o]
+														n[e] = a
+													end
+													l = l + 1
+													e = h[l]
+												else
+													o = e[d]
+													f = n[o]
+													for e = o + 1, r do
+														t.DsMOcknn(f, n[e])
+													end
+												end
+											end
+										end
+									end
+								end
+							end
+						else
+							if 10 <= f then
+								if f <= 14 then
+									if 12 > f then
+										if 11 == f then
+											c[e[o]] = n[e[d]]
+										else
+											local s = y[e[o]]
+											local r
+											local f = {}
+											r = t.rEfmrDdy({}, {
+												__index = function(n, e)
+													local e = f[e]
+													return e[1][e[2]]
+												end,
+												__newindex = function(l, e, n)
+													local e = f[e]
+													e[1][e[2]] = n
+												end,
+											})
+											for d = 1, e[a] do
+												l = l + 1
+												local e = h[l]
+												if e[_] == 78 then
+													f[d - 1] = { n, e[o] }
+												else
+													f[d - 1] = { u, e[o] }
+												end
+												b[#b + 1] = f
+											end
+											n[e[d]] = p(s, r, c)
+										end
+									else
+										if f > 12 then
+											if f >= 12 then
+												for r = 18, 68 do
+													if 13 < f then
+														if n[e[d]] then
+															l = l + 1
+														else
+															l = e[o]
+														end
+														break
+													end
+													local s = y[e[o]]
+													local r
+													local f = {}
+													r = t.rEfmrDdy({}, {
+														__index = function(n, e)
+															local e = f[e]
+															return e[1][e[2]]
+														end,
+														__newindex = function(l, e, n)
+															local e = f[e]
+															e[1][e[2]] = n
+														end,
+													})
+													for d = 1, e[a] do
+														l = l + 1
+														local e = h[l]
+														if e[_] == 78 then
+															f[d - 1] = { n, e[o] }
+														else
+															f[d - 1] = { u, e[o] }
+														end
+														b[#b + 1] = f
+													end
+													n[e[d]] = p(s, r, c)
+													break
+												end
+											else
+												local s = y[e[o]]
+												local r
+												local f = {}
+												r = t.rEfmrDdy({}, {
+													__index = function(n, e)
+														local e = f[e]
+														return e[1][e[2]]
+													end,
+													__newindex = function(l, e, n)
+														local e = f[e]
+														e[1][e[2]] = n
+													end,
+												})
+												for d = 1, e[a] do
+													l = l + 1
+													local e = h[l]
+													if e[_] == 78 then
+														f[d - 1] = { n, e[o] }
+													else
+														f[d - 1] = { u, e[o] }
+													end
+													b[#b + 1] = f
+												end
+												n[e[d]] = p(s, r, c)
+											end
+										else
+											for t = 0, 6 do
+												if 2 < t then
+													if 5 > t then
+														if t ~= 3 then
+															c[e[o]] = n[e[d]]
+															l = l + 1
+															e = h[l]
+														else
+															n[e[d]] = n[e[o]][e[a]]
+															l = l + 1
+															e = h[l]
+														end
+													else
+														if t ~= 1 then
+															for f = 26, 76 do
+																if 6 ~= t then
+																	n[e[d]] = (e[o] ~= 0)
+																	l = l + 1
+																	e = h[l]
+																	break
+																end
+																c[e[o]] = n[e[d]]
+																break
+															end
+														else
+															n[e[d]] = (e[o] ~= 0)
+															l = l + 1
+															e = h[l]
+														end
+													end
+												else
+													if 0 < t then
+														if t == 1 then
+															c[e[o]] = n[e[d]]
+															l = l + 1
+															e = h[l]
+														else
+															n[e[d]] = c[e[o]]
+															l = l + 1
+															e = h[l]
+														end
+													else
+														n[e[d]] = n[e[o]][e[a]]
+														l = l + 1
+														e = h[l]
+													end
+												end
+											end
+										end
+									end
+								else
+									if f > 17 then
+										if f < 19 then
+											local f
+											for t = 0, 6 do
+												if 3 > t then
+													if t >= 1 then
+														if t < 2 then
+															n[e[d]] = u[e[o]]
+															l = l + 1
+															e = h[l]
+														else
+															n[e[d]] = u[e[o]]
+															l = l + 1
+															e = h[l]
+														end
+													else
+														n[e[d]] = u[e[o]]
+														l = l + 1
+														e = h[l]
+													end
+												else
+													if 5 > t then
+														if t >= 1 then
+															repeat
+																if 4 > t then
+																	n[e[d]] = n[e[o]]
+																	l = l + 1
+																	e = h[l]
+																	break
+																end
+																n[e[d]] = n[e[o]]
+																l = l + 1
+																e = h[l]
+															until true
+														else
+															n[e[d]] = n[e[o]]
+															l = l + 1
+															e = h[l]
+														end
+													else
+														if 1 <= t then
+															repeat
+																if 5 < t then
+																	f = e[d]
+																	n[f] = n[f](s(n, f + 1, e[o]))
+																	break
+																end
+																n[e[d]] = n[e[o]]
+																l = l + 1
+																e = h[l]
+															until true
+														else
+															f = e[d]
+															n[f] = n[f](s(n, f + 1, e[o]))
+														end
+													end
+												end
+											end
+										else
+											if 18 ~= f then
+												for l = 18, 76 do
+													if f ~= 19 then
+														n[e[d]]()
+														break
+													end
+													local o = e[d]
+													local t = {}
+													for e = 1, #b do
+														local e = b[e]
+														for l = 0, #e do
+															local l = e[l]
+															local d = l[1]
+															local e = l[2]
+															if d == n and e >= o then
+																t[e] = d[e]
+																l[1] = t
+															end
+														end
+													end
+													break
+												end
+											else
+												local o = e[d]
+												local t = {}
+												for e = 1, #b do
+													local e = b[e]
+													for l = 0, #e do
+														local l = e[l]
+														local d = l[1]
+														local e = l[2]
+														if d == n and e >= o then
+															t[e] = d[e]
+															l[1] = t
+														end
+													end
+												end
+											end
+										end
+									else
+										if 15 < f then
+											if 12 ~= f then
+												repeat
+													if f ~= 16 then
+														if e[d] < n[e[a]] then
+															l = l + 1
+														else
+															l = e[o]
+														end
+														break
+													end
+													local l = e[d]
+													local d, e = g(n[l](s(n, l + 1, e[o])))
+													r = e + l - 1
+													local e = 0
+													for l = l, r do
+														e = e + 1
+														n[l] = d[e]
+													end
+												until true
+											else
+												if e[d] < n[e[a]] then
+													l = l + 1
+												else
+													l = e[o]
+												end
+											end
+										else
+											local l = e[d]
+											n[l](s(n, l + 1, e[o]))
+										end
+									end
+								end
+							else
+								if f > 4 then
+									if f < 7 then
+										if 4 ~= f then
+											for t = 41, 59 do
+												if 6 > f then
+													local d = e[d]
+													local l = n[e[o]]
+													n[d + 1] = l
+													n[d] = l[e[a]]
+													break
+												end
+												local t, f, r
+												n[e[d]] = c[e[o]]
+												l = l + 1
+												e = h[l]
+												n[e[d]] = n[e[o]][e[a]]
+												l = l + 1
+												e = h[l]
+												n[e[d]] = {}
+												l = l + 1
+												e = h[l]
+												n(e[d], e[o])
+												l = l + 1
+												e = h[l]
+												n(e[d], e[o])
+												l = l + 1
+												e = h[l]
+												n(e[d], e[o])
+												l = l + 1
+												e = h[l]
+												t = e[d]
+												f = n[t]
+												r = n[t + 2]
+												if r > 0 then
+													if f > n[t + 1] then
+														l = e[o]
+													else
+														n[t + 3] = f
+													end
+												elseif f < n[t + 1] then
+													l = e[o]
+												else
+													n[t + 3] = f
+												end
+												break
+											end
+										else
+											local t, f, r
+											n[e[d]] = c[e[o]]
+											l = l + 1
+											e = h[l]
+											n[e[d]] = n[e[o]][e[a]]
+											l = l + 1
+											e = h[l]
+											n[e[d]] = {}
+											l = l + 1
+											e = h[l]
+											n(e[d], e[o])
+											l = l + 1
+											e = h[l]
+											n(e[d], e[o])
+											l = l + 1
+											e = h[l]
+											n(e[d], e[o])
+											l = l + 1
+											e = h[l]
+											t = e[d]
+											f = n[t]
+											r = n[t + 2]
+											if r > 0 then
+												if f > n[t + 1] then
+													l = e[o]
+												else
+													n[t + 3] = f
+												end
+											elseif f < n[t + 1] then
+												l = e[o]
+											else
+												n[t + 3] = f
+											end
+										end
+									else
+										if f < 8 then
+											n[e[d]] = n[e[o]][n[e[a]]]
+										else
+											if f >= 5 then
+												repeat
+													if 9 ~= f then
+														l = e[o]
+														break
+													end
+													n[e[d]] = n[e[o]][n[e[a]]]
+												until true
+											else
+												n[e[d]] = n[e[o]][n[e[a]]]
+											end
+										end
+									end
+								else
+									if 1 >= f then
+										if f >= -1 then
+											repeat
+												if f > 0 then
+													local e = e[d]
+													r = e + m - 1
+													for l = e, r do
+														local e = k[l - e]
+														n[l] = e
+													end
+													break
+												end
+												n[e[d]][n[e[o]]] = n[e[a]]
+											until true
+										else
+											n[e[d]][n[e[o]]] = n[e[a]]
+										end
+									else
+										if 3 <= f then
+											if 4 > f then
+												local f, h, r, t, a
+												local l = 0
+												while l > -1 do
+													if l <= 2 then
+														if 0 >= l then
+															f = e
+														else
+															if l ~= -2 then
+																repeat
+																	if l ~= 2 then
+																		h = d
+																		break
+																	end
+																	r = o
+																until true
+															else
+																h = d
+															end
+														end
+													else
+														if l > 4 then
+															if 3 < l then
+																for e = 47, 95 do
+																	if 5 < l then
+																		l = -2
+																		break
+																	end
+																	n(a, t)
+																	break
+																end
+															else
+																n(a, t)
+															end
+														else
+															if l > 0 then
+																repeat
+																	if 4 ~= l then
+																		t = f[r]
+																		break
+																	end
+																	a = f[h]
+																until true
+															else
+																t = f[r]
+															end
+														end
+													end
+													l = l + 1
+												end
+											else
+												local s, c, b, t, r, h, f
+												local l = 0
+												while l > -1 do
+													if l <= 2 then
+														if l > 0 then
+															if l >= -3 then
+																repeat
+																	if l > 1 then
+																		r = t[c]
+																		break
+																	end
+																	t = e
+																until true
+															else
+																t = e
+															end
+														else
+															s = d
+															c = o
+															b = a
+														end
+													else
+														if l > 4 then
+															if 2 ~= l then
+																for e = 42, 58 do
+																	if 5 < l then
+																		l = -2
+																		break
+																	end
+																	n[h] = f
+																	break
+																end
+															else
+																n[h] = f
+															end
+														else
+															if 0 < l then
+																repeat
+																	if l ~= 3 then
+																		f = n[r]
+																		for e = 1 + r, t[b] do
+																			f = f .. n[e]
+																		end
+																		break
+																	end
+																	h = t[s]
+																until true
+															else
+																h = t[s]
+															end
+														end
+													end
+													l = l + 1
+												end
+											end
+										else
+											n[e[d]] = {}
+										end
+									end
+								end
+							end
+						end
+					end
+					l = 1 + l
+				end
+			end
+			return ne
+		end
+		local d = 0xff
+		local f = {}
+		local h = 1
+		local o = "";
+		(function(n)
+			local l = n
+			local a = 0x00
+			local e = 0x00
+			l = {
+				function(t)
+					if a > 0x26 then
+						return t
+					end
+					a = a + 1
+					e = (e + 0x75d - t) % 0xe
+					return (
+						e % 0x03 == 0x2
+						and (function(l)
+							if not n[l] then
+								e = e + 0x01
+								n[l] = 0xe3
+							end
+							return true
+						end)("ZPxcx")
+						and l[0x2](0x2b9 + t)
+					)
+						or (e % 0x03 == 0x1 and (function(l)
+							if not n[l] then
+								e = e + 0x01
+								n[l] = 0x6a
+								o = "\37"
+								d = {
+									function()
+										d()
+									end,
+								}
+								o = o .. "\100\43"
+							end
+							return true
+						end)("LYRkO") and l[0x3](t + 0x2b2))
+						or (e % 0x03 == 0x0 and (function(l)
+							if not n[l] then
+								e = e + 0x01
+								n[l] = 0x20
+							end
+							return true
+						end)("rloyn") and l[0x1](t + 0x80))
+						or t
+				end,
+				function(t)
+					if a > 0x28 then
+						return t
+					end
+					a = a + 1
+					e = (e + 0x431 - t) % 0xa
+					return (
+						e % 0x03 == 0x0
+						and (function(l)
+							if not n[l] then
+								e = e + 0x01
+								n[l] = 0x3c
+								f[h] = te()
+								h = h + d
+							end
+							return true
+						end)("qbSuK")
+						and l[0x1](0x1cd + t)
+					)
+						or (e % 0x03 == 0x1 and (function(l)
+							if not n[l] then
+								e = e + 0x01
+								n[l] = 0x69
+							end
+							return true
+						end)("MoKtm") and l[0x3](t + 0x2e1))
+						or (e % 0x03 == 0x2 and (function(l)
+							if not n[l] then
+								e = e + 0x01
+								n[l] = 0xc2
+							end
+							return true
+						end)("nAFKP") and l[0x2](t + 0x116))
+						or t
+				end,
+				function(r)
+					if a > 0x2a then
+						return r
+					end
+					a = a + 1
+					e = (e + 0x5a8 - r) % 0x2f
+					return (
+						e % 0x03 == 0x0
+						and (function(l)
+							if not n[l] then
+								e = e + 0x01
+								n[l] = 0x40
+								d[2] = (d[2] * (ne(function()
+									f()
+								end, s(o)) - ne(d[1], s(o)))) + 1
+								f[h] = {}
+								d = d[2]
+								h = h + d
+							end
+							return true
+						end)("KGnRd")
+						and l[0x2](0x13a + r)
+					)
+						or (e % 0x03 == 0x2 and (function(l)
+							if not n[l] then
+								e = e + 0x01
+								n[l] = 0x1e
+								o = { o .. "\58 a", o }
+								f[h] = le()
+								h = h + ((not t.MRvkikvj) and 1 or 0)
+								o[1] = "\58" .. o[1]
+								d[2] = 0xff
+							end
+							return true
+						end)("_FwMG") and l[0x3](r + 0x126))
+						or (e % 0x03 == 0x1 and (function(l)
+							if not n[l] then
+								e = e + 0x01
+								n[l] = 0x1b
+							end
+							return true
+						end)("DYOaS") and l[0x1](r + 0x303))
+						or r
+				end,
+			}
+			l[0x1](0xaf2)
+		end)({})
+		local e = p(s(f))
+		f[2] = {}
+		f[1] = e(f[1])
+		YsQpZpyjikspoQq = nil
+		e = p(s(f))
+		return e(...)
+	end
+	return de(
+		(function()
+			local n = {}
+			local e = 0x01
+			local l
+			if t.MRvkikvj then
+				l = t.MRvkikvj(de)
+			else
+				l = ""
+			end
+			if t.FoCHsqzt(l, t.nluOKDWI) then
+				e = e + 0
+			else
+				e = e + 1
+			end
+			n[e] = 0x02
+			n[n[e] + 0x01] = 0x03
+			return n
+		end)(),
+		...
+	)
+end)(function(l, e, n, d, t, o)
+	local o
+	if l < 4 then
+		if 1 < l then
+			if -2 <= l then
+				for o = 40, 54 do
+					if l ~= 2 then
+						do
+							return e(1), e(4, t, d, n, e), e(5, t, d, n)
+						end
+						break
+					end
+					do
+						return 16777216, 65536, 256
+					end
+					break
+				end
+			else
+				do
+					return e(1), e(4, t, d, n, e), e(5, t, d, n)
+				end
+			end
+		else
+			if 0 ~= l then
+				do
+					return function(n, e, l)
+						if l then
+							local e = (n / 2 ^ (e - 1)) % 2 ^ ((l - 1) - (e - 1) + 1)
+							return e - e % 1
+						else
+							local e = 2 ^ (e - 1)
+							return (n % (e + e) >= e) and 1 or 0
+						end
+					end
+				end
+			else
+				do
+					return e(1), e(4, t, d, n, e), e(5, t, d, n)
+				end
+			end
+		end
+	else
+		if 5 >= l then
+			if l ~= 3 then
+				repeat
+					if 5 > l then
+						local l = d
+						local f, h, o = t(2)
+						do
+							return function()
+								local t, n, d, e = e(n, l(l, l), l(l, l) + 3)
+								l(4)
+								return (e * f) + (d * h) + (n * o) + t
+							end
+						end
+						break
+					end
+					local l = d
+					do
+						return function()
+							local e = e(n, l(l, l), l(l, l))
+							l(1)
+							return e
+						end
+					end
+				until true
+			else
+				local l = d
+				local d, t, o = t(2)
+				do
+					return function()
+						local n, e, f, h = e(n, l(l, l), l(l, l) + 3)
+						l(4)
+						return (h * d) + (f * t) + (e * o) + n
+					end
+				end
+			end
+		else
+			if l <= 6 then
+				do
+					return t[n]
+				end
+			else
+				if 8 == l then
+					do
+						return n(l, nil, n)
+					end
+				else
+					do
+						return setmetatable({}, {
+							["__\99\97\108\108"] = function(e, l, d, t, n)
+								if n then
+									return e[n]
+								elseif t then
+									return e
+								else
+									e[l] = d
+								end
+							end,
+						})
+					end
+				end
+			end
+		end
+	end
+end, ...)
